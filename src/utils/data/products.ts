@@ -1,116 +1,115 @@
 const MENU = [
   {
-    title: "Lanche do dia",
+    title: "Especiais do Dia",
     data: [
       {
         id: "1",
-        title: "X-React",
+        title: "Clássico de Carne Bovina",
         price: 24.9,
         description:
-          "Um hamburger tão bonito que me deu fome enquanto eu fazia esse layout para o projeto...",
+          "Um favorito atemporal com um suculento hambúrguer de carne bovina, alface, tomate, picles, cebola e nosso molho especial.",
         cover: require("../../assets/products/cover/1.png"),
         thumbnail: require("../../assets/products/thumbnail/1.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Pão brioche",
+          "1x hambúrguer de carne bovina",
+          "Queijo cheddar",
+          "Alface",
+          "Tomate",
+          "Picles",
+          "Cebola",
+          "Molho especial",
         ],
       },
     ],
   },
   {
-    title: "Promoções",
+    title: "Hambúrgueres",
     data: [
       {
         id: "2",
-        title: "X-JavaScript",
+        title: "Bacon Deluxe Burger",
         price: 34.9,
         description:
-          "Os ingredientes desse hambúrguer mudam toda semana, então você sempre terá uma surpresa...",
+          "Para os amantes de bacon! Nosso burger deluxe vem com tiras crocantes de bacon, queijo derretido e uma variedade de vegetais frescos.",
         cover: require("../../assets/products/cover/2.png"),
         thumbnail: require("../../assets/products/thumbnail/2.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Pão brioche",
+          "2x hambúrgueres de carne bovina",
+          "Queijo cheddar derretido",
+          "Bacon crocante",
+          "Alface",
+          "Tomate",
+          "Picles",
+          "Cebola",
+          "Molho especial",
         ],
       },
       {
         id: "3",
-        title: "X-Cobol",
+        title: "Hambúrguer Apimentado de Jalapeño",
         price: 32.7,
         description:
-          "Aquele hambúrguer que não podemos tirar do cardápio devido aos clientes mais antigos da hamburgueria...",
+          "Esquente as coisas com o nosso Hambúrguer Apimentado de Jalapeño! Cheio de sabor e um toque de pimenta.",
         cover: require("../../assets/products/cover/3.png"),
         thumbnail: require("../../assets/products/thumbnail/3.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Pão brioche",
+          "2x hambúrgueres de carne bovina",
+          "Queijo pepper jack",
+          "Jalapeños frescos",
+          "Alface",
+          "Tomate",
+          "Picles",
+          "Cebola",
+          "Maionese apimentada",
         ],
       },
       {
         id: "4",
-        title: "X-Tailwind",
+        title: "Hambúrguer de Cogumelos com Queijo Suíço",
         price: 29.9,
         description:
-          "Aquele que você não gosta de primeira, mas depois fica viciado e não consegue mais largar...",
+          "Saboreie a bondade terrosa dos cogumelos salteados e queijo suíço derretido a cada mordida.",
         cover: require("../../assets/products/cover/4.png"),
         thumbnail: require("../../assets/products/thumbnail/4.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Pão brioche",
+          "1x hambúrguer de carne bovina",
+          "Cogumelos salteados",
+          "Queijo suíço",
+          "Alface",
+          "Tomate",
+          "Picles",
+          "Cebola",
+          "Molho de alho",
         ],
       },
     ],
   },
   {
-    title: "Sobremesa",
+    title: "Sobremesas",
     data: [
       {
         id: "5",
-        title: "Sorvete com Brownie",
+        title: "Sundae de Brownie",
         price: 18.9,
         description:
-          "Uma sobremesa deliciosa para saborear. Escolha o sorvete e a calda que desejar...",
+          "Indulja-se em uma deliciosa sobremesa com nosso Sundae de Brownie. Escolha seu sorvete favorito e coberturas.",
         cover: require("../../assets/products/cover/5.png"),
         thumbnail: require("../../assets/products/thumbnail/5.png"),
-        ingredients: [
-          "1x Brownie;",
-          "1x Bola de sorvete a sua escolha",
-          "Escolha sua calda;",
-        ],
+        ingredients: ["Brownie", "Bola de sorvete", "Escolha de coberturas"],
       },
       {
         id: "6",
-        title: "Cupcake",
+        title: "Cupcake Clássico",
         price: 22.9,
         description:
-          "Um delicioso Cupcake para adoçar. Escolha o sabor que você gosta...",
+          "Um delicioso cupcake no seu sabor favorito, coberto com uma cobertura fofa.",
         cover: require("../../assets/products/cover/6.png"),
         thumbnail: require("../../assets/products/thumbnail/6.png"),
-        ingredients: ["Escolha o sabor;", "Chantilly;"],
+        ingredients: ["Escolha de sabor de cupcake", "Cobertura fofa"],
       },
     ],
   },
@@ -119,22 +118,22 @@ const MENU = [
     data: [
       {
         id: "7",
-        title: "Hmmm, coquinha!",
+        title: "Coca-Cola Gelada",
         price: 6.9,
         thumbnail: require("../../assets/products/thumbnail/7.png"),
         cover: require("../../assets/products/cover/7.png"),
         description:
-          "Uma coca super gelada para acompanhar o seu super lanche...",
+          "Uma Coca-Cola super gelada para acompanhar a sua refeição deliciosa.",
         ingredients: [],
       },
     ],
   },
-]
+];
 
-const PRODUCTS = MENU.map((item) => item.data).flat()
+const PRODUCTS = MENU.map((item) => item.data).flat();
 
-const CATEGORIES = MENU.map((item) => item.title)
+const CATEGORIES = MENU.map((item) => item.title);
 
-type ProductProps = (typeof PRODUCTS)[0]
+type ProductProps = (typeof PRODUCTS)[0];
 
-export { MENU, PRODUCTS, CATEGORIES, ProductProps }
+export { MENU, PRODUCTS, CATEGORIES, ProductProps };
