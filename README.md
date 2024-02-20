@@ -52,7 +52,7 @@ To access the project, either clone the repository or download the project files
 To clone the repository, use the following command in your terminal:
 
 ```sh
-git clone 
+git clone https://github.com/tiagopacedev/delivery-app.git
 ```
 
 After cloning the repository, navigate to the project folder and install dependencies using the following command in your terminal:
