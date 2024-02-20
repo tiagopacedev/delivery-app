@@ -48,20 +48,20 @@ FastBurger is a mobile application developed for small businesses, such as local
 - Global state management with Zustand
 
 ## Installation
-To access the project, either clone the repository or download the project files.<br>
-To clone the repository, use the following command in your terminal:
+
+Clone the repository:
 
 ```sh
 git clone https://github.com/tiagopacedev/delivery-app.git
 ```
 
-After cloning the repository, navigate to the project folder and install dependencies using the following command in your terminal:
+Install dependencies:
 
 ```sh
 yarn 
 ```
 
-After installing the dependencies, use the following command in your terminal to start the application:
+Start the application:
 
 ```sh
 yarn expo start
