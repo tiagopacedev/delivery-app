@@ -1,6 +1,6 @@
 # FastBurger App
 
-![Frame 48095696](https://github.com/tiagopacedev/delivery-app/assets/118914503/744b7c16-a4df-442e-8819-049edea112b7)
+![Frame 48095696 (5)](https://github.com/tiagopacedev/delivery-app/assets/118914503/834cb21b-e340-4e82-9e98-ace17a14efb2)
 
 ## Overview
 
